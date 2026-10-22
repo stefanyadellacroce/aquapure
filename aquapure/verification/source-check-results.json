@@ -1,0 +1,151 @@
+{
+  "baseline_sha256": "6bb2dedb97134d0a759ebb7700ad279934091849f94ad7d5a673d1f445ad6075",
+  "baseline_files": 102,
+  "baseline_php_files": 75,
+  "current_application_php_files": 78,
+  "changed_baseline_files": [
+    "AUDIT_REPORT.md",
+    "CHANGES_MANIFEST.md",
+    "README.md",
+    "TEST_CHECKLIST.md",
+    "UI_UX_MODERNIZATION_REPORT.md",
+    "actions/customer.php",
+    "actions/portal.php",
+    "admin/register.php",
+    "assets/css/style.css",
+    "assets/js/app.js",
+    "customer/pages/cart.php",
+    "customer/pages/dashboard.php",
+    "customer/pages/order.php",
+    "customer/pages/orders.php",
+    "customer/pages/payment-return.php",
+    "customer/pages/products.php",
+    "customer/pages/profile.php",
+    "includes/app-footer.php",
+    "includes/bootstrap.php",
+    "includes/customer-header.php",
+    "includes/functions.php",
+    "includes/portal-footer.php",
+    "includes/portal-header.php",
+    "includes/public-footer.php",
+    "includes/public-header.php",
+    "index.php",
+    "login.php",
+    "portal/pages/activity-logs.php",
+    "portal/pages/customers.php",
+    "portal/pages/dashboard.php",
+    "portal/pages/deliveries.php",
+    "portal/pages/inventory.php",
+    "portal/pages/invitations.php",
+    "portal/pages/notifications.php",
+    "portal/pages/order-create.php",
+    "portal/pages/order.php",
+    "portal/pages/orders.php",
+    "portal/pages/payments.php",
+    "portal/pages/products.php",
+    "portal/pages/reports.php",
+    "portal/pages/settings.php",
+    "portal/pages/transactions.php",
+    "portal/pages/users.php",
+    "register.php",
+    "staff/register.php"
+  ],
+  "unchanged_protected_files": 52,
+  "compared_sql_literals": 177,
+  "compared_forms_excluding_two_equivalent_modals": 28,
+  "compared_named_controls_excluding_modals": 127,
+  "csrf_helper_calls_excluding_modals": 25,
+  "table_templates": 21,
+  "javascript_syntax": "PASS",
+  "php_lexical_delimiters": "PASS",
+  "php_runtime": "NOT RUN: this script checks source only",
+  "browser_runtime": "NOT RUN: this script checks source only",
+  "database_runtime": "NOT RUN: this script checks source only",
+  "token_contrast": [
+    {
+      "combination": "Body",
+      "foreground": "#172B3A",
+      "background": "#FFFFFF",
+      "ratio": 14.55
+    },
+    {
+      "combination": "Muted",
+      "foreground": "#526575",
+      "background": "#FFFFFF",
+      "ratio": 6.04
+    },
+    {
+      "combination": "Primary button",
+      "foreground": "#FFFFFF",
+      "background": "#075EAD",
+      "ratio": 6.53
+    },
+    {
+      "combination": "Primary hover",
+      "foreground": "#FFFFFF",
+      "background": "#064B8A",
+      "ratio": 8.82
+    },
+    {
+      "combination": "Control edge on white",
+      "foreground": "#75899A",
+      "background": "#FFFFFF",
+      "ratio": 3.62
+    },
+    {
+      "combination": "Control edge on canvas",
+      "foreground": "#75899A",
+      "background": "#F4F7FA",
+      "ratio": 3.37
+    },
+    {
+      "combination": "Sidebar",
+      "foreground": "#E7EFF5",
+      "background": "#0B263B",
+      "ratio": 13.33
+    },
+    {
+      "combination": "Success",
+      "foreground": "#166534",
+      "background": "#DCFCE7",
+      "ratio": 6.49
+    },
+    {
+      "combination": "Warning / Partial",
+      "foreground": "#92400E",
+      "background": "#FEF3C7",
+      "ratio": 6.37
+    },
+    {
+      "combination": "Danger",
+      "foreground": "#B91C1C",
+      "background": "#FEE2E2",
+      "ratio": 5.3
+    },
+    {
+      "combination": "Progress",
+      "foreground": "#075985",
+      "background": "#E0F2FE",
+      "ratio": 6.59
+    },
+    {
+      "combination": "Ready for pickup",
+      "foreground": "#0F615B",
+      "background": "#E5F5F2",
+      "ratio": 6.48
+    },
+    {
+      "combination": "Neutral status",
+      "foreground": "#526575",
+      "background": "#EDF2F5",
+      "ratio": 5.36
+    },
+    {
+      "combination": "Footer muted",
+      "foreground": "#BFCED8",
+      "background": "#0B263B",
+      "ratio": 9.62
+    }
+  ],
+  "issues": []
+}

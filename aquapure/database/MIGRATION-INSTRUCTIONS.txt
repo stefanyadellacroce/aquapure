@@ -1,0 +1,21 @@
+AquaPure existing database migration
+===================================
+
+DO NOT import database/aquapure.sql over an existing database with records.
+
+1. Open phpMyAdmin.
+2. Export/backup the existing AquaPure database.
+3. Click the exact existing AquaPure database in the left sidebar.
+4. Run/import:
+   database/migrations/20260818_upgrade_existing_aquapure.sql
+5. Run it once only.
+6. Review the verification counts shown at the end.
+7. Refresh AquaPure using Ctrl+F5.
+
+The migration does not contain DROP DATABASE or DROP TABLE statements for your
+core data tables. It standardizes known legacy columns and creates missing
+support structures where safe.
+
+If your live database is not named aquapure_db, that is okay: the migration
+uses whichever database you explicitly selected in phpMyAdmin. Configure the
+PHP app with AQUAPURE_DB_NAME so it connects to the same database.
